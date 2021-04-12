@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Elizabeth\'s Toy Collection</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="stuffed_animal">Stuffed Animal</string>
+    <string name="doll">Doll</string>
+    <string name="action_figure">Action Figure</string>
+    <string name="button_view_toy">View Toys</string>
+    <string name="your_toys">Your Toys:</string>
+    <string name="gallery_button">Gallery</string>
+    <string name="id">ID:</string>
+    <string name="category">Category:</string>
+    <string name="name">Name:</string>
+    <string name="color">Color:</string>
+    <string name="notes">Notes:</string>
+
+    <string name="music">Play Music?</string>
+
+    <string name="animal_title">Add A Stuffed Animal</string>
+    <string name="add_to_collection">Add</string>
+
+    <string name="doll_title">Add A New Doll</string>
+
+    <string name="action_figure_title">Add An Action Figure</string>
+
+
+</resources>

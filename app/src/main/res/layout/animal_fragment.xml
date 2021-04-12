@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvAnimalTitle"
+        android:layout_width="237dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/animal_title"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddAnimalToCollection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/add_to_collection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAnimalNotes" />
+
+    <TextView
+        android:id="@+id/tvNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/name"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAnimalTitle" />
+
+    <EditText
+        android:id="@+id/etAnimalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/tvNameTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvAnimalTitle" />
+
+    <TextView
+        android:id="@+id/tvColorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/color"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvNameTitle"
+        app:layout_constraintStart_toStartOf="@+id/tvNameTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameTitle" />
+
+    <EditText
+        android:id="@+id/etAnimalColorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etAnimalName"
+        app:layout_constraintTop_toBottomOf="@+id/etAnimalName" />
+
+    <TextView
+        android:id="@+id/tvNotesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/notes"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvColorTitle"
+        app:layout_constraintStart_toStartOf="@+id/tvColorTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvColorTitle" />
+
+    <EditText
+        android:id="@+id/etAnimalNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/etAnimalColorName"
+        app:layout_constraintStart_toStartOf="@+id/etAnimalColorName"
+        app:layout_constraintTop_toBottomOf="@+id/etAnimalColorName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
